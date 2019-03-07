@@ -1,239 +1,239 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
 <head>
-<style>
-*{
-font-family: arial;
-}
+<base href="https://pepe-dev.cloudapps.cisco.com:443/BLP/">
 
-.event{
-width: 825px;
-height: 120px;
-margin-bottom: 10px;
-border: solid 0px;
-}
-.format{
-/*border-radius: 0px 15px 15px 0px; */
-width: 24px; 
-height: 120px; 
-line-height: 24px; 
-float:left;
-background-color: #005073; 
-color: #ffffff; 
-font-weight: bold; 
-writing-mode: vertical-lr; 
-transform: rotate(180deg);
--ms-writing-mode: tb-rl;
--ms-transform: rotate(180deg);
-text-align: center;
-}
+<title>PEPE BLP Tool</title>
 
-.info {
-float:left;
-height: 120px;
-width: 200px;
-}
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="This is my page">
+<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+<!-- <link rel="stylesheet" type="text/css" href="css/masterbrand.min.css" /> -->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/blpcourses.css" />
 
-.session {
-float:left;
-height: 120px;
-width: 595px;
-margin-left: 3px;
-overflow: hidden;
-border: solid 1px #f2f2f2;
-border-top: solid 0px #f2f2f2;
-}
-.title{
-height:25px;
-font-size: 0.85em;
-font-weight: bold;
-padding-left: 5px;
-background-color: #005073;
-color: #FFFFFF;
-display: table;
-width: 648px
-}
-.PIW {
-background-color: #005073;
-}
-.PVT {
-background-color: #14A892;
-}
-.PVTwhenColor {
-background-color: #6DC04B;
-}
-.Workshop {
-background-color: #099AD5;
-}
-.title span {
-display: table-cell;
-vertical-align: middle;
-}
+<link rel="stylesheet" type="text/css" href="DataTables-1.10.4/media/css/jquery.dataTables.css" />
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
 
 
-.overview{
-width: auto;
-font-size: .8em;
-line-height: 19px;
-padding-left: 10px;
-}
-
-.where{
-height:25px;
-background-color: #005073;
-color: #ffffff; 
-font-weight: bold;
-font-size: 0.9em;
-text-align: center;
-display: table;
-width: 100%;
-}
-.where span {
-display: table-cell;
-vertical-align: middle;
-}
-
-.when{
-float:left;
-height: 95px;
-text-align: center;
-width: 80px;
-font-weight: bold; 
-color: #f2f2f2;
-text-decoration: none
-}
-
-.who {
-height: 95px;
-background-color: #f2f2f2;
-width:120px;
-font-size: .9em;
-}
-
-.icon {
-width: 40px;
-background-color: #f2f2f2;
-}
-
-.day{
-margin-top:5px;
-font-size: 1.4em;
-height: 30px;
-}
-.month{
-font-size: 1.2em;
-height: 30px;
-}
-
-.audience{
-margin-top:5px;
-font-size: .8em;
-margin-bottom: 5px;
-color: #005073;
-line-height: 10px;
-}
-
-.register{
-background-color: #005073; 
-borde: solid 1px #000000;
-border-radius: 5px;
-font-size: .8em;
-line-height: 32px;
-height: 32px;
-width: 70px;
-margin: auto;
-color: #ffffff;
-}
-
-.icon img{
-height:28px;
-width:28px;
-margin-top: 2px;
-}
-
-.language {
-font-size: 0.75em;
-text-align: center;
-margin-top: 2px;
-}
-.singleGap {
-height: 5px;
-}
-.doubleGap {
-height: 25px;
-}
-.pvtWhoGap {
-height: 80px;
-}
-.pvtWhenGap {
-height: 60px;
-}
+ <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script> 
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.cluetip.js"></script> -->
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.js"></script>
+<!-- <script type="text/javascript" 	src="js/jquery.dataTables.js"></script> -->
+<script type="text/javascript" 	src="DataTables-1.10.4/media/js/jquery.dataTables.js"></script>
+<script type="text/javascript" 	src="js/fieldValidations.js"></script>
+<script type="text/javascript" 	src="js/commonScripts.js"></script>
 
 
 
-</style>
 </head>
+
 <body>
-<div style="width: 800px;">
-<div class="event">
- <div class="format" style="background-color: #005073; border-bottom: #005073;">PIW </div>
- <div class="info">
-     <div class="where" style="background-color: #005073">
-         <span>Webinar</span>
-     </div>
-     <div>
-         <div class="when Workshop" style=""> 
-             <div class=""></div>
-             <div class="day">24</div>
-             <div class="month">Jan</div>
-             <div class="duration">1 Hour</div>
-         </div>
-         <div class="when who" style="">
-             <div class="doubleGap"></div>
-             <div class="audience">Sales</div>
-             <div class="audience">Intermediate</div>
-             <div class="audience">English</div>
+	<div class="wrapper">
+		
+<link rel="stylesheet" type="text/css" href="css/masterbrand.min.css" />
 
-         </div>
-     </div>
- </div>
- <div class="session">
-     <div class="title PIW">
-         <span>PIW - GDPR - from compliance to opportunities in the Datacenter</span>
-     </div>
-     <div class="overview" title="In today’s environment protecting our Datacenters and the privacy and integrity of our customer data is not only required, it’s the law.&#xA;In this session you will learn from GDPR and DC experts how technology can help you not only to be compliant, but also to run your operations in a much better way, by driving privacy by design in your projects and operations. Learn how private cloud, DR/BC and Tetration network analytics can help you achieve compliance and help your customers to run more efficiently at the end.">
-     <a target="_top" href="https://salesconnect.cisco.com/open.html?c=af7e8617-d982-4f9c-994f-e6362486e4c5"><font size="2"><strong>PIW - GDPR - from compliance to opportunities in the Datacenter - PDF (Top)</strong></font></a><br /><a target="_blank" href="https://salesconnect.cisco.com/open.html?c=5290b536-f92c-470c-81d8-9f4a2c4a2fcf"><font size="2"><strong>PIW - GDPR - from compliance to opportunities in the Datacenter - Video (Blank)</strong></font></a><br />In today’s environment protecting our Datacenters and the privacy and integrity of our customer data is not only required, it’s the law.<br />In this session you will learn from GDPR and DC experts how technology can help you not only to be compliant, but also to run your operations in a much better way, by driving privacy by design in your projects and operations. Learn how private cloud, DR/BC and Tetration network analytics can help you achieve compliance and help your customers to run more efficiently at the end.
-     </div>
- </div>
-</div>
-<div class="event">
- <div class="format" style="background-color: #005073; border-bottom: #005073;">PIW </div>
- <div class="info">
-     <div class="where" style="background-color: #005073">
-         <span>Webinar</span>
-     </div>
-     <div>
-         <div class="when Workshop" style=""> 
-             <div class=""></div>
-             <div class="day">8</div>
-             <div class="month">Jan</div>
-             <div class="duration">1 Hour</div>
-         </div>
-         <div class="when who" style="">
-             <div class="doubleGap"></div>
-             <div class="audience">Technology</div>
-             <div class="audience">Intermediate</div>
-             <div class="audience">English</div>
+		<br>
+		<div id="traincontent" class="contentpanel hidden"
+			style="display: block;">
+			<div class="contentblock">
+				
 
-         </div>
-     </div>
- </div>
- <div class="session">
-     <div class="title PIW">
-         <span>PIW - Cisco Collaboration on Cisco HyperFlex M5 TRC</span>
-     </div>
-     <div class="overview" title="New Tested Reference Configuration (TRC) of HyperFlex (HX) M5 for UC apps. Refreshes HX M4 TRC, adds new capabilities, quoting via dual-compensation quoting bundles.&#xA;• Background&#xA;• Solution Overview&#xA;• Sales Approach&#xA;• Design & Quoting&#xA;• Post-sales&#xA;• Resources">
-     <a target="_parent" href="https://salesconnect.cisco.com/open.html?c=13df380a-f758-4424-a46d-7f6165ee13db"><font size="2"><strong>PIW - Cisco Collaboration on Cisco HyperFlex M5 TRC - PDF (Parent)</strong></font></a><br /><a href=https://salesconnect.cisco.com/open.html?c=9a7bff10-a272-478e-a35c-741687b1a688><font size="2"><strong>PIW - Cisco Collaboration on Cisco HyperFlex M5 TRC - Video</strong></font></a><br />New Tested Reference Configuration (TRC) of HyperFlex (HX) M5 for UC apps. Refreshes HX M4 TRC, adds new capabilities, quoting via dual-compensation quoting bundles.<br />• Background<br />• Solution Overview<br />• Sales Approach<br />• Design & Quoting<br />• Post-sales<br />• Resources
-     </div>
- </div>
+
+
+ <script type="text/javascript" src="js/BLPToolScripts/showUpcomingTEPageScripts.js"></script>
+ 
+<script src="DataTables-1.10.4/media/js/jquery.dataTables.js"></script>
+<script src="js/dataTables.bootstrap.js"></script>
+
+<div id="TrainingEventList">
+	<table id="showUpcomingTraining"
+		class="display dataTable cell-border" style="width:100%">
+		<thead>
+			<tr>
+			<th></th>
+				<th style="font-size:14px;">Event Title</th>
+				<th>Event Code</th>
+				<th>Event Start Date </th>
+				<th> Fiscal Quater </th>
+				<th> Language</th>
+				<th> Level</th>
+				<th> Registration Link</th>
+				<th>Status</th>
+				<th>Delivery Type</th>
+				<th>TR Unique ID</th>
+				<th>Product Name</th>
+				<th>Product ID</th>
+				<th>Description</th>
+				<th>Duration</th>
+				<th>Platform</th>
+	
+				</tr>
+		</thead>
+		<tfoot></tfoot>
+		<tbody>
+
+
+			
+
+				<tr>
+
+
+				<td class=" details-control"></td>
+					<td style="font-size:14px;">EMEAR PVT Data Center 26 - 28 March 2019, Amsterdam</td>
+					<td></td>
+					<td>2019-03-26 09:00:00</td>
+					<td>Q3 FY19</td>
+					<td></td>
+					<td>Advanced</td>
+
+					
+						
+						
+						
+							<td><a href=""></a></td>
+						
+						
+					
+
+
+					
+					<td>Published</td>
+					<td>Instructor-led</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>test</td>
+					<td>0 Minutes</td>
+					<td>PVT</td>
+
+
+				</tr>
+			
+
+				<tr>
+
+
+				<td class=" details-control"></td>
+					<td style="font-size:14px;">PVT tests2</td>
+					<td></td>
+					<td>2019-03-26 09:00:00</td>
+					<td>Q3 FY19</td>
+					<td></td>
+					<td>Advanced</td>
+
+					
+						
+						
+						
+							<td><a href=""></a></td>
+						
+						
+					
+
+
+					
+					<td>Created</td>
+					<td>Instructor-led</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>test</td>
+					<td>0 Minutes</td>
+					<td>PVT</td>
+
+
+				</tr>
+			
+
+				<tr>
+
+
+				<td class=" details-control"></td>
+					<td style="font-size:14px;">VIP 33 activation bonus deep dive VIP</td>
+					<td></td>
+					<td>2019-03-14 13:00:00</td>
+					<td>Q3 FY19</td>
+					<td>English</td>
+					<td>Advanced</td>
+
+					
+						
+							<td><a href=""></a></td>
+						
+						
+						
+						
+					
+
+
+					
+					<td>Published</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>Please join us as we deep dive into VIP 33 and the bonus structure of VIP including the activation bonus. In this session we will go over the overall benefits and the step by step instructions</td>
+					<td>0 Minutes</td>
+					<td>PIW</td>
+
+
+				</tr>
+			
+		</tbody>
+	</table>
 </div>
+			</div>
+		</div>
+		<br>
+		<!-- Begin Footer page -->
+
+
+
+
+
+
+
+
+
+	<!--<section id="framework-footer">
+<div id="footer-nav">
+<a href="#">Contacts</a>
+|
+<img id="fw_feedback_img" title="Provide Feedback" src="images/sm_0000EE_oo1.gif" alt="Feedback">
+<a href="#" target="feedback_window">Feedback</a>
+|
+<a href="#">Help</a>
+|
+<a href="#">Site Map</a>
+|
+<a href="#">Terms & Conditions</a>
+|
+<a href="#">Privacy Statement</a>
+|
+<a href="#">Cookie Policy</a>
+|
+<a href="#">Trademarks</a>
 </div>
+</section>-->
+<!-- </footer> -->
+
+<!-- End Footer page -->
+	</div>
 </body>
+</html>
